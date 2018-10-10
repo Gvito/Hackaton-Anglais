@@ -116,6 +116,7 @@ main
     flex-direction: column;
     margin: 1em 0;
     text-align: center;
+    width: 75%;
 }
 h1{
     font-size: 1em;
@@ -166,9 +167,27 @@ input
     align-content: center;
 }
 
+/* responsive tablet */
+@media (min-width: 600px)
+{
+    .form
+    {
+        width: 75%;
+    }
+}
 
-
-
+/* responsive computer */
+@media (min-width: 1200px)
+{
+    .centre
+    {
+        margin: 1em 15em;
+    }
+    .form
+    {
+        width: 50%;
+    }
+}
 
 
 
@@ -180,7 +199,8 @@ input
 
 /*
  * Hide visually and from screen readers
- */
+
+*/
 
 .hidden {
     display: none !important;
