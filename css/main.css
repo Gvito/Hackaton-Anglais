@@ -104,28 +104,26 @@ header
     display: flex;
     justify-content: center;
 }
-nav
+header nav
 {
     display: flex;
-    align-content: space-around;
     width: 90%;
 }
-aside{
+header nav aside{
     display: flex;
     width: 40%;
-    margin-left: 7%;
     justify-content: end;
     margin-left: 5%;
     margin-right: 5%;
 }
-.icones{
+header nav aside.icones{
     justify-content: space-around;
 }
-img
+header nav aside img
 {
     width: 3em;
 }
-p{
+header nav aside p{
     margin-top: 0vh;
 }
 /* END HEADER CSS */
@@ -142,7 +140,7 @@ main
 
 /* Div center page */
 
-.centre
+main div.centre
 {
     align-content: center;
     display: flex;
@@ -151,21 +149,15 @@ main
     text-align: center;
     width: 75%;
 }
-h1{
+main div.centre h1{
     font-size: 1em;
 }
 /* Size img */
 
-img
+main div.logo img
 {
     width: 5em;
     align-items: center;
-}
-
-.logo
-{
-    display: flex;
-    justify-content: center;
 }
 
 /* Form with label and input */
