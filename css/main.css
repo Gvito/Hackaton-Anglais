@@ -97,7 +97,40 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* css background */
+/* HEADER CSS */
+
+header
+{
+    display: flex;
+    justify-content: center;
+}
+nav
+{
+    display: flex;
+    align-content: space-around;
+    width: 90%;
+}
+aside{
+    display: flex;
+    width: 40%;
+    margin-left: 7%;
+    justify-content: end;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.icones{
+    justify-content: space-around;
+}
+img
+{
+    width: 3em;
+}
+p{
+    margin-top: 0vh;
+}
+/* END HEADER CSS */
+
+/* MAIN CSS */
 
 main
 {
@@ -107,7 +140,7 @@ main
     height: 100vh;
 }
 
-/* css div center page */
+/* Div center page */
 
 .centre
 {
@@ -121,7 +154,7 @@ main
 h1{
     font-size: 1em;
 }
-/* size img */
+/* Size img */
 
 img
 {
@@ -135,7 +168,7 @@ img
     justify-content: center;
 }
 
-/* css form with label and input */
+/* Form with label and input */
 
 .connexion
 {
@@ -167,7 +200,12 @@ input
     align-content: center;
 }
 
-/* responsive tablet */
+/* END MAIN CSS */
+
+/* RESPONSIVE CSS */
+
+/* Responsive tablet */
+
 @media (min-width: 600px)
 {
     .form
@@ -176,7 +214,8 @@ input
     }
 }
 
-/* responsive computer */
+/* Responsive computer */
+
 @media (min-width: 1200px)
 {
     .centre
@@ -189,7 +228,7 @@ input
     }
 }
 
-
+/* END RESPONSIVE CSS */
 
 
 
