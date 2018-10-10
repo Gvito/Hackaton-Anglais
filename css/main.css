@@ -96,6 +96,46 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /********************[ENSAIGNANT]FICHE TABLEAU APPRENANT*******************/
+
+.TableauQuestion {
+ border-collapse: collapse;
+ width: 60%;
+ height: 80vh;
+ text-align: center;
+}
+
+.TableauQuestion td, th {
+  border: 1px solid black;
+}
+    /********************[ENSEIGNANT]FICHE TABLEAU APPRENANT*******************/
+    /********************[ENSEIGNANT]FICHE TABLEAU RESULTAT*******************/
+.TableauResultat {
+  width: 60%;
+  height: 80vh;
+  border-collapse: collapse;
+  text-align: center;
+
+}
+
+.TableauResultat td, th {
+  border: 1px solid black;
+}
+
+    /********************[ENSEIGNANT]FICHE TABLEAU RESULTAT*******************/
+
+    /********************[SECRETAIRE]FICHE TABLEAU SESSION*******************/
+.TableauSession {
+  width: 60%;
+  height: 80vh;
+  border-collapse: collapse;
+  text-align: center;
+  }
+
+.TableauSession td, th {
+      border: 1px solid black;
+    }
+    /********************[SECRETAIRE]FICHE TABLEAU SESSION*******************/
 
 
 

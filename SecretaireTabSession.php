@@ -17,29 +17,25 @@
 </head>
 
 <body>
-<table>
-  <caption>Fiche Technique</caption>
-  <th>QUESTION</th>
-  <th>REPONSE</th>
+<table class = "TableauSession">
+  <caption>Tableau des Sessions</caption>
+  <th>Session</th>
+  <th>État</th>
   <tr>
-    <td>Question 1</td>
-    <td>Réponse</td>
+    <td>Session 1</td>
+    <td>Terminé</td>
   </tr>
   <tr>
-    <td>Question 2</td>
-    <td>Réponse</td>
+    <td>Session 2</td>
+    <td>En cours</td>
   </tr>
   <tr>
-    <td>Question 3</td>
-    <td>Réponse</td>
+    <td>Session 3</td>
+    <td>En cours</td>
   </tr>
   <tr>
-    <td>Question 4</td>
-    <td>Réponse</td>
-  </tr>
-  <tr>
-    <td>Question 5</td>
-    <td>Réponse</td>
+    <td>Session 4</td>
+    <td>Terminé</td>
   </tr>
 </table>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>

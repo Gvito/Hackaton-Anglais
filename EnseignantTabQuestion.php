@@ -17,7 +17,7 @@
 </head>
 
 <body>
-<table>
+<table class = "TableauQuestion">
   <caption>Fiche Technique</caption>
   <th>QUESTION</th>
   <th>REPONSE</th>

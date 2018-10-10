@@ -17,29 +17,40 @@
 </head>
 
 <body>
-<table>
-  <caption>Fiche Technique</caption>
-  <th>QUESTION</th>
-  <th>REPONSE</th>
+<table class = "TableauResultat">
+  <caption>Tableau de Réussite</caption>
+  <th>Nom/Prénom</th>
+  <th>%Réussite</th>
+  <th>Niveau</th>
   <tr>
-    <td>Question 1</td>
-    <td>Réponse</td>
+    <td>Philippe Delarue</td>
+    <td>90%</td>
+    <td>Avancé</td>
+    <td><a href = "">Plus d'info</a></td>
   </tr>
   <tr>
-    <td>Question 2</td>
-    <td>Réponse</td>
+    <td>Philippe Delarue</td>
+    <td>90%</td>
+    <td>Avancé</td>
+    <td><a href = "">Plus d'info</a></td>
   </tr>
   <tr>
-    <td>Question 3</td>
-    <td>Réponse</td>
+    <td>Philippe Delarue</td>
+    <td>90%</td>
+    <td>Avancé</td>
+    <td><a href = "">Plus d'info</a></td>
   </tr>
   <tr>
-    <td>Question 4</td>
-    <td>Réponse</td>
+    <td>Philippe Delarue</td>
+    <td>90%</td>
+    <td>Avancé</td>
+    <td><a href = "">Plus d'info</a></td>
   </tr>
   <tr>
-    <td>Question 5</td>
-    <td>Réponse</td>
+    <td>Philippe Delarue</td>
+    <td>90%</td>
+    <td>Avancé</td>
+    <td><a href = "">Plus d'info</a></td>
   </tr>
 </table>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
