@@ -20,21 +20,21 @@
 <body>
 
 <main>
-
-  <!-- section question -->
-  <section class="appsectques">
-    <!-- question -->
-    <h2 class="apphdeux">1. ... USA is a very big country.</h2>
-    <!-- all answer -->
-    <ul class="appul">
-      <li class="appli">1. a</li>
-      <li class="appli">2. an</li>
-      <li class="appli">3. the</li>
-    </ul>
-    <!-- button validation-->
-    <a class="appbuttonv" href="appquestend.html"> Valider </a>
+  <!-- section start / instruction for apprenat -->
+  <section class="appsectstart">
+    <!-- title exams -->
+    <h1 class="apphun">TEST D'ANGLAIS</h1>
+    <!-- explanations for question -->
+    <p class="appp">Quelques consignes ...<br>
+    <br>
+    Ce test est destiné à mesurer votre niveau de maïtrise de la grammaire, du vocabulaire, et votre compréhension écrite de la langue anglaise.<br>
+    Il sera utilisé lors de votre entretien de motivation et permettra de mesurer votre parcours de formation en fin d'année.<br>
+    Vous devez essayer de répondre au plus grand nombre de questions.<br>
+    Bonne chance !
+    </p>
+    <!-- button OK -->
+    <a class="appbutton" href="appquest.php"> Cliquer ici pour commencer le test </a>
   </section>
-
 </main>
 
 
