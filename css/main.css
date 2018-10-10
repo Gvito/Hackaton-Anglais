@@ -97,12 +97,286 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* HEADER CSS */
+
+   header
+   {
+       display: flex;
+       justify-content: center;
+   }
+   nav
+   {
+       display: flex;
+       align-content: space-around;
+       width: 90%;
+   }
+   aside{
+       display: flex;
+       width: 40%;
+       margin-left: 7%;
+       justify-content: end;
+       margin-left: 5%;
+       margin-right: 5%;
+   }
+   .icones{
+       justify-content: space-around;
+   }
+   img
+   {
+       width: 3em;
+   }
+   p{
+       margin-top: 0vh;
+   }
+   /* END HEADER CSS */
+
+   /* MAIN CSS */
+
+   main
+   {
+       justify-content: center;
+       background-color: rgb(230, 230, 230);
+       display: flex;
+       height: 100vh;
+   }
+
+   /* Div center page */
+
+   .centre
+   {
+       align-content: center;
+       display: flex;
+       flex-direction: column;
+       margin: 1em 0;
+       text-align: center;
+       width: 75%;
+   }
+   h1{
+       font-size: 1em;
+   }
+   /* Size img */
+
+   img
+   {
+       width: 5em;
+       align-items: center;
+   }
+
+   .logo
+   {
+       display: flex;
+       justify-content: center;
+   }
+
+   /* Form with label and input */
+
+   .connexion
+   {
+       display: flex;
+       justify-content: center;
+       background-color: white;
+   }
+
+   form
+   {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+
+   label
+   {
+       margin-top: 1em;
+   }
+
+   input
+   {
+       width: 75%;
+   }
+
+   .valider
+   {
+       margin: 1em 0;
+       align-content: center;
+   }
+
+   /* END MAIN CSS */
+
+   /* RESPONSIVE CSS */
+
+   /* Responsive tablet */
+
+   @media (min-width: 600px)
+   {
+       .form
+       {
+           width: 75%;
+       }
+   }
+
+   /* Responsive computer */
+
+   @media (min-width: 1200px)
+   {
+       .centre
+       {
+           margin: 1em 15em;
+       }
+       .form
+       {
+           width: 50%;
+       }
+   }
+
+   /* END RESPONSIVE CSS */
 
 
+   /* ================================= APPRENAT CSS START ================================================ */
 
+            /* ======================== PAGE APPQUESTMAIN START ===================== */
 
+                /* =================== SECTION-START START================ */
 
+   .appsectstart {
+     font-family: 'Roboto', sans-serif;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
 
+   .apphun {
+     font-size: 1.5em;
+   }
+
+   .appp {
+     font-size: 0.8em;
+     margin: 2em;
+   }
+
+   .appbutton {
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+    color: black;
+    border: 2px solid #555555;
+   }
+
+   .appbutton:hover {
+    background-color: #555555;
+    color: white;
+   }
+
+   @media (min-width: 800px) {
+       .apphun {
+         font-size: 2em;
+       }
+
+       .appp {
+         font-size: 1em;
+       }
+   }
+
+                 /* =================== SECTION-START END===================== */
+
+                /* =================== SECTION-QUESTIONS START================ */
+
+   .appsectques {
+     font-family: 'Roboto', sans-serif;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 1em;
+   }
+
+   .apphdeux {
+     font-size: 1.5em;
+   }
+
+   .appul {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+   }
+
+   .appli {
+     margin: 1em;
+     list-style: none;
+     margin-right: 2em;
+   }
+
+   .appbuttonv {
+     border: none;
+     padding: 10px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 1em;
+     margin: 4px 2px;
+     -webkit-transition-duration: 0.4s;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     background-color: rgb(230, 230, 230);
+     color: black;
+     border: 2px solid #555555;
+   }
+
+   .appbuttonv:hover {
+    background-color: #555555;
+    color: white;
+   }
+
+   @media (min-width: 800px) {
+    .apphdeux {
+      font-size: 2em;
+    }
+   }
+
+                /* =================== SECTION-QUESTIONS END================ */
+
+                /* =================== SECTION-END START================ */
+
+   .appsectend {
+     font-family: 'Roboto', sans-serif;
+     margin: 3em;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
+
+   .apphtrois {
+     font-size: 1.2em;
+   }
+
+   .apphquatre {
+     margin: 2em;
+   }
+
+   @media (min-width: 1200px) {
+    .appsectend {
+      font-size: 1.3em;
+    }
+
+    .apphtrois {
+      width: 75vh;
+    }
+   }
+
+                /* =================== SECTION-START START================ */
+
+          /* ======================== PAGE APPQUESTMAIN.PHP END ======================= */
+
+   /* ================================= APPRENAT CSS END ================================================ */
 
 
 /* ==========================================================================
